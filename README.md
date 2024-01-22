@@ -32,7 +32,7 @@ Before using this script, ensure you have the following installed:
 4. **Run the installer:**
 
    ```bash
-   sudo /install.sh
+   sudo ./install.sh
    ```
 
 ## Usage
