@@ -40,7 +40,7 @@ Before using this script, ensure you have the following installed:
 After installation, you can use the script by running it with the required flags:
 
 ```bash
-github_workflow_manager.sh -o <owner> -r <repo> -t <token>
+flowcleanser -o <owner> -r <repo> -t <token>
 ```
 
 Where:
