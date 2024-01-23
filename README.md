@@ -13,11 +13,11 @@ To install FlowCleanser, follow these steps:
    ```
 2. Navigate to the project directory:
    ```
-   cd flowcleanser
+   cd FlowCleanser
    ```
 3. Install the dependencies:
    ```
-   pip install -r requirements.txt
+   pip3 install -e .
    ```
 
 ## Usage
@@ -25,7 +25,7 @@ To install FlowCleanser, follow these steps:
 To use FlowCleanser, execute the script with the necessary parameters:
 
 ```
-python main.py -o <owner> -r <repository> -t <token>
+flowcleanser -o <owner> -r <repository> -t <token>
 ```
 
 Where:

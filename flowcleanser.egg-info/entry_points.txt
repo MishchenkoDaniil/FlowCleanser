@@ -1,2 +1,0 @@
-[console_scripts]
-flowcleanser = flowcleanser.main:main
