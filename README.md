@@ -1,56 +1,45 @@
 # FlowCleanser
 
-This script, created by Mishchenko Daniil, is designed to manage and clean up workflows in a specified GitHub repository. It allows users to delete runs of GitHub Actions workflows based on the provided repository and owner details.
-
-## Prerequisites
-
-Before using this script, ensure you have the following installed:
-- `git`
-- `curl`
-- `jq`
+## Description
+FlowCleanser is a command-line tool designed for the deletion of GitHub Actions workflow runs in a specified repository. This tool is particularly useful for automating the clean-up of old or unnecessary workflow runs, aiding in resource management and organization of your GitHub projects.
 
 ## Installation
 
-1. **Clone the repository:**
+To install FlowCleanser, follow these steps:
 
-   ```bash
+1. Clone the repository:
+   ```
    git clone git@github.com:MishchenkoDaniil/FlowCleanser.git
    ```
-
-2. **Navigate to the repository directory:**
-
-   ```bash
-   cd FlowCleanser
+2. Navigate to the project directory:
    ```
-
-3. **Make the installer executable (if it's not already):**
-
-   ```bash
-   chmod +x install.sh
+   cd flowcleanser
    ```
-
-4. **Run the installer:**
-
-   ```bash
-   sudo ./install.sh
+3. Install the dependencies:
+   ```
+   pip install -r requirements.txt
    ```
 
 ## Usage
 
-After installation, you can use the script by running it with the required flags:
+To use FlowCleanser, execute the script with the necessary parameters:
 
-```bash
-flowcleanser -o <owner> -r <repo> -t <token>
+```
+python main.py -o <owner> -r <repository> -t <token>
 ```
 
 Where:
-- `<owner>` is the owner of the GitHub repository.
-- `<repo>` is the repository name.
-- `<token>` is your GitHub personal access token.
+- `<owner>` is the GitHub repository owner.
+- `<repository>` is the name of the repository.
+- `<token>` is your GitHub token for authentication.
 
-## Author
+## License
 
-**Mishchenko Daniil**
+GNU GENERAL PUBLIC LICENSE - see the [LICENSE](LICENSE) file for details.
 
-Feel free to contact me for any feedback or questions regarding this script.
-```
+## Contact
+
+For any questions or suggestions, please feel free to contact me at dany.mishchenko@gmail.com.
+
+---
+© 2024 Daniil Mishchenko, FlowCleanser

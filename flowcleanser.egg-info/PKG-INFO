@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: flowcleanser
+Version: 1.0.0
+Summary: A tool for removing industrial process launches GitHub Actions
+Home-page: git@github.com:MishchenkoDaniil/FlowCleanser.git
+Author: Daniil Mishchenko
+Author-email: dany.mishchenko@gmail.com
+Keywords: github actions api delete
+License-File: LICENSE

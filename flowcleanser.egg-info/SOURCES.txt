@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+flowcleanser/__init__.py
+flowcleanser/main.py
+flowcleanser.egg-info/PKG-INFO
+flowcleanser.egg-info/SOURCES.txt
+flowcleanser.egg-info/dependency_links.txt
+flowcleanser.egg-info/entry_points.txt
+flowcleanser.egg-info/requires.txt
+flowcleanser.egg-info/top_level.txt
